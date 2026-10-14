@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_light"
+    android:padding="24dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开发者"
+        android:textColor="#8A94A6"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="南辞"
+        android:textColor="#1F2937"
+        android:textSize="17sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="软件"
+        android:textColor="#8A94A6"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本软件完全免费，让用户自由编写代码并运行查看。当前版本支持 Java 语言。"
+        android:textColor="#1F2937"
+        android:textSize="17sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="版本内容"
+        android:textColor="#8A94A6"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="此版本为1.0，后续版本将从1.0升级到2.0，我们是不用1.1和1.2来概括版本的，我们是用1.0和2.0来概括版本，请各位不要下载到盗版。"
+        android:textColor="#1F2937"
+        android:textSize="17sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="人民"
+        android:textColor="#8A94A6"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="科技不再是高高在上，而是为人民服务。"
+        android:textColor="#1F2937"
+        android:textSize="17sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="知道了"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/bg_btn_rounded" />
+
+</LinearLayout>

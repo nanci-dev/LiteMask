@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="幻灵终端"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"
+            android:alpha="0"
+            android:translationY="80dp" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用代码响应世界，用终端创造未来"
+            android:textColor="#B8C6FF"
+            android:textSize="15sp"
+            android:letterSpacing="0.02"
+            android:alpha="0"
+            android:translationY="60dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/btn_enter"
+            android:layout_width="220dp"
+            android:layout_height="56dp"
+            android:text="点击进入幻灵"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:background="@drawable/bg_btn_outline"
+            android:alpha="0"
+            android:translationY="100dp"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:layout_marginTop="64dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
